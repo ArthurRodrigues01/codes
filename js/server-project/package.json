@@ -1,0 +1,15 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Apenas um teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mds": "node hello"
+  },
+  "author": "Eu-mesmo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
