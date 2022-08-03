@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+.contador-container{
+  display: flex;
+
+}
+.hour, .minute, .second, .line{
+  padding: 8px;
+  font-family: 'Poppins';
+  font-size: 5vmax;
+}
