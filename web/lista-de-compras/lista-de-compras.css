@@ -7,7 +7,6 @@ body{
   height: 98vh;
 }
 .list-container{
-  text-align: center;
   padding: 25px;
   font-family: 'Poppins';
   border-radius: 20px;
@@ -36,12 +35,19 @@ body{
   height: calc(44px * 6);
 }
 .list-item-title{
+  position: relative;
   font-size: 15pt;
   margin: 0px;
   padding: 14px;
   text-align: left;
 }
 .erase-button{
-  position: relative;
-  right: 15px;
+  position: absolute;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.erase-button:hover{
+  cursor: pointer;
 }
