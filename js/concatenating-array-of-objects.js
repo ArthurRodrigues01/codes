@@ -29,39 +29,39 @@ function generateUUID() { // Public Domain/MIT
   });
 }
 
-function isElementInArray(element, array){
-  for(f = 0; f < array.length; f++){
-    if(array[f].id === element.id){
+function isElementInArray(element, array) {
+  for (f = 0; f < array.length; f++) {
+    if (array[f].id === element.id) {
       return true;
     }
   }
   return false;
 }
 
-function getDummyObjectsArray(){
+function getDummyObjectsArray() {
   let array
-  for(i = 0; i < 10; i++){
-    if(array === undefined){
-      array = [{id: generateUUID(), description: ""}]
-    }else{
-      array = [...array, {id: generateUUID(), description: ""}]
+  for (i = 0; i < 10; i++) {
+    if (array === undefined) {
+      array = [{ id: generateUUID(), description: "" }]
+    } else {
+      array = [...array, { id: generateUUID(), description: "" }]
     }
   }
   return array
 }
-function main(){
+function main() {
   users = getDummyObjectsArray()
   isEditable = true
   editableIDs = [users[2], users[5], users[9]]
-  
-  if(isEditable){
+
+  if (isEditable) {
     users.map(item => {
-      if(isElementInArray(item, editableIDs)){
+      if (isElementInArray(item, editableIDs)) {
         item.description = "Valor alterado"
       }
     })
   }
-  
+
   users.map(item => {
     console.log(item)
   })
