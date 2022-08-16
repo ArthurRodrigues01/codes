@@ -6,7 +6,7 @@
 *   O programa gera um array de objetos, com duas propriedades, 
 *   um id(aleatório) e uma descrição, a descrição é inicialmente nula, mas
 *   o programa substituí o valor da descrição de elementos específicos.
-* Finalidade do programa: 
+* Finalidade da criação do programa: 
 *   Testar o novo operador '...', em relação ao método 'concat'.
 *
 *************************************************************************/

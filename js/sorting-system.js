@@ -4,7 +4,7 @@
 *
 * O que o programa faz?
 * 	O programa ordena strings com base na tabela ASCII.
-* Finalidade do programa:
+* Finalidade da criação do programa:
 *		Aprendizado.
 *
 *************************************************************************/
