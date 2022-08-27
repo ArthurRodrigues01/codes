@@ -1,3 +1,14 @@
+/*************************************************************************
+*
+* Author: Arthur Rodrigues
+*
+* O que o programa faz?
+* 	  Converte da base decimal para a base binária, hexadecimal ou octal,
+*     também faz a conversão dessas bases para decimal.
+* Finalidade da criação do programa:
+*		Exercício.
+*
+*************************************************************************/
 const hexadecimalTable = ['A', 'B', 'C', 'D', 'E', 'F']
 
 String.prototype.reverse = function () {
